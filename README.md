@@ -1,11 +1,14 @@
 # 🛡️ Cybersecurity-Professional-Toolkit
-A collection of custom-built Python networking, system auditing, and security tools designed for efficirncy, automation and practical security testing
+
+A collection of custom-built Python networking, system auditing, and security tools designed from scratch for efficiency, automation, and practical security testing.
+
 ---
 
 ## 🧰 Included Tools
 
 | Tool | File | Description |
 | :--- | :--- | :--- |
+| **Subnet Host Discovery (Ping Sweep)** | `Network/ping_sweep.py` | A multithreaded network discovery tool that uses a queue-based architecture and subprocess ping checks to rapidly identify active hosts across a target subnet. |
 | **Multithreaded TCP Port Scanner** | `Network/port_scanner.py` | A high-performance, queue-based TCP port scanner that checks all 65,535 ports concurrently using worker threads, custom timeouts, and thread-safe terminal printing. |
 
 ---
