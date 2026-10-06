@@ -8,6 +8,7 @@ A collection of custom-built Python networking, system auditing, and security to
 
 | Tool | File | Description |
 | :--- | :--- | :--- |
+| **Layer 2 ARP Local Host Discovery** | `Network/arp_scanner.py` | A low-level network reconnaissance utility using Scapy to broadcast Layer 2 ARP frames across a target subnet, bypassing ICMP/ping blocks to discover live hosts and their MAC addresses. |
 | **Service Banner Grabber Orchestrator** | `Network/banner_grabber.py` | An automated recon utility that explicitly invokes `port_scanner.py` as a subprocess, parses its output for open ports, and deploys a multi-threaded queue to extract service banners and version strings. |
 | **Multithreaded Packet Sniffer & Anomaly Detector** | `Network/packet_sniffer.py` | A low-level, multithreaded raw socket packet sniffer and intrusion detection utility that captures network traffic across OS platforms, parses IP/TCP headers via struct unpacking, and flags protocol anomalies in real-time. |
 | **Subnet Host Discovery (Ping Sweep)** | `Network/ping_sweep.py` | A multithreaded network discovery tool that uses a queue-based architecture and subprocess ping checks to rapidly identify active hosts across a target subnet. |
