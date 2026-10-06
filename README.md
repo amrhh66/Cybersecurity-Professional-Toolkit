@@ -14,6 +14,7 @@ A collection of custom-built Python networking, system auditing, and security to
 | **Subnet Host Discovery (Ping Sweep)** | `Network/ping_sweep.py` | A multithreaded network discovery tool that uses a queue-based architecture and subprocess ping checks to rapidly identify active hosts across a target subnet. |
 | **Multithreaded TCP Port Scanner** | `Network/port_scanner.py` | A high-performance, queue-based TCP port scanner that checks all 65,535 ports concurrently using worker threads, custom timeouts, and thread-safe terminal printing. |
 | **Custom TTL-Based Route Tracer** | `Network/route_tracer.py` | A low-level networking utility that manually crafts ICMP echo packets, manipulates IP header TTL values frame-by-frame, and listens on raw sockets to map router hops and calculate RTT. |
+| **Multithreaded DNS Subdomain Enumerator** | `Network/dns_enumerator.py` | A high-performance reconnaissance script that leverages `concurrent.futures` and external wordlists to rapidly brute-force and resolve active target subdomains. |
 ---
 
 ## 🚀 Getting Started
